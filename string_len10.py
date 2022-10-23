@@ -8,4 +8,12 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    a=len(s)
+    x=s[0]
+    y=s[2]
+    if a==3 and  x==y:
+        return "True"
+    else:
+        return "False"
+print(main("121"))
+
