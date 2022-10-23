@@ -11,15 +11,10 @@ def main(s):
     a=len(s)
     x=s[0]
     y=s[2]
-    if a==3 and  x==y:
+    z=s[1]
+    if a==3 and  x==y and x!=z:
         return "True"
-    if a==3 and x!=y:
-        return "False"
-    if a>3 and x==y:
-        return "False"
-    if a<3 and x==y:
-        return "False"
-    if a<3 and x!=y:
-        return "False"
-print(main("wew0090"))
+    else:
+     return "False"
+print(main("222"))
 
