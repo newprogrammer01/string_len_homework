@@ -6,13 +6,12 @@ def main(a):
     Returns:
         True or False
     """
-    if a%2==0:
+    b=len(a)
+    if b%2==0:
         return "True"
-    if a%2==1:
+    else:
         return "False"
-print(main(len("3 4")))
-
-
+print(main('12 3'))
 
 
     
