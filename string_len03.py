@@ -9,9 +9,6 @@ def main(a,b):
     """
     x=len(a)
     y=len(b)
-    if x==y:
-        return ("True")
-    else:
-        return ("False")
-print(main("sa lom12" ,"dunyo"))
-  
+    return x==y
+print(main("salom  ", "scholl!"))
+
