@@ -13,4 +13,4 @@ def main(s1,s2):
        return  s1
     if a>=b:
         return s2
-print(main("code" , "ex am"))
+print(main('"code"' , '"ex am"'))
