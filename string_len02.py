@@ -9,7 +9,7 @@ def main(a):
     b=len(a)
     if b%2==0:
         return "True"
-    else:
+    if b%2==1:
         return "False"
 print(main('12 3'))
 
