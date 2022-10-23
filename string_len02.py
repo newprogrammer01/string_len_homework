@@ -11,7 +11,8 @@ def main(a):
         return "True"
     if b%2==1:
         return "False"
-print(main('12 3'))
+print(main('12 d3'))
+
 
 
     
