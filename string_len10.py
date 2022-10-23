@@ -13,7 +13,13 @@ def main(s):
     y=s[2]
     if a==3 and  x==y:
         return "True"
-    else:
+    if a==3 and x!=y:
         return "False"
-print(main("121"))
+    if a>3 and x==y:
+        return "False"
+    if a<3 and x==y:
+        return "False"
+    if a<3 and x!=y:
+        return "False"
+print(main("wew0090"))
 
