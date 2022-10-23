@@ -12,3 +12,4 @@ def main(s1,s2):
 
     return x+y
 print(main("salom", "dunyo!"))
+
