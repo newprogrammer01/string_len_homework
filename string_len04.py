@@ -6,4 +6,13 @@ def main(s):
     Returns:
         string
     """
-    return
+    b=len(s)
+    e="*"
+    d=b*e
+    return d
+print(main("salom"))
+  
+
+
+
+
