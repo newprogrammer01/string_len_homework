@@ -6,7 +6,8 @@ def main(a):
     Returns:
         length of string
     """
-    return a
-print(main(len('1 2')))
+    b=len(a)
+    return b
+print(main("school"))
 
 
