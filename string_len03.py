@@ -7,4 +7,11 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    x=len(a)
+    y=len(b)
+    if x==y:
+        return ("True")
+    else:
+        return ("False")
+print(main("sa lom12" ,"dunyo"))
+  
