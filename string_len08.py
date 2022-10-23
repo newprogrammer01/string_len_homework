@@ -8,4 +8,16 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a=len(s)
+    b=a%2
+    d=a//2
+    e=a//2-1
+    if b==1:
+       return s[d]
+    if b==0:
+        return s[e]+s[d]
+print(main("jufti"))
+
+
+
+
