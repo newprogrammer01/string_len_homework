@@ -8,8 +8,8 @@ def main(a):
     """
     if len(a)%2==0:  
        return ("True")
-    else:
-        return "false"
+    if len(a)%2==1:
+        return "False"
 print(main("salom kj"))
 
     
