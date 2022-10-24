@@ -11,10 +11,10 @@ def main(s):
     a=len(s)
     x=s[0]
     y=s[2]
-    z=s[1]
-    if a==3 and  x==y and x!=z:
-        return "True"
+    if a==3 and x==y:
+        return True
     else:
-     return "False"
-print(main("222"))
+        return False
+print(main("wee"))
+
 
