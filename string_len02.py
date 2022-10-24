@@ -7,9 +7,9 @@ def main(a):
         True or False
     """
     if len(a)%2==0:  
-       return ("True")
+       return True
     if len(a)%2==1:
-        return "False"
-print(main("salom kj"))
+        return False
+print(main("salom"))
 
     
